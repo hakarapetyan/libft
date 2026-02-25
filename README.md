@@ -10,7 +10,9 @@ Memory Allocation: Mastering the difference between the Stack and the Heap.
 
 Low-Level Logic: Understanding the inner workings of the C Standard Library (Libc).
 
-🛠️ Part 1: Libc ReimplementationsThese functions mirror the behavior of the standard C library but are prefixed with ft_.
+🛠️ Part 1: C Standard Library Reimplementations
+
+These functions mirror the behavior of the standard C library but are prefixed with ft_.
 
 ft_isalpha,Checks for an alphabetic character.
 
