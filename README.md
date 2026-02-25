@@ -8,9 +8,13 @@ Memory Allocation: Mastering the difference between the Stack and the Heap.
 Low-Level Logic: Understanding the inner workings of the C Standard Library (Libc).
 
 🛠️ Part 1: Libc ReimplementationsThese functions mirror the behavior of the standard C library but are prefixed with ft_.
+
 ft_isalpha,Checks for an alphabetic character.
+
 ft_isdigit,Checks for a digit (0 through 9).
+
 ft_strlen,Calculates the length of a string.
+
 ft_memset,Fills memory with a constant byte.
 ft_bzero,Zeroes out a byte string.
 ft_memcpy,Copies a memory area.
