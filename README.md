@@ -78,3 +78,10 @@ Static Functions: Used for helper functions to keep the scope restricted to the 
 Memory Management: All heap allocations (malloc) are carefully managed to ensure zero leaks.
 
 Compilation: Every .c file is compiled with -Wall -Wextra -Werror.
+
+### 📦 Instructions
+Compilation
+To compile the library:
+```bash
+make
+```
