@@ -3,8 +3,11 @@
 📝 Description
 The Libft project is a custom-built collection of standard C library functions, plus extra utilities for string manipulation, memory management, and linked list handling.
 The primary goal is to create a personal library (libft.a) that serves as a permanent toolkit for all future C projects in the curriculum. This project provides a deep dive into:
+
 Data Structures: Building and navigating lists.
+
 Memory Allocation: Mastering the difference between the Stack and the Heap.
+
 Low-Level Logic: Understanding the inner workings of the C Standard Library (Libc).
 
 🛠️ Part 1: Libc ReimplementationsThese functions mirror the behavior of the standard C library but are prefixed with ft_.
@@ -67,6 +70,9 @@ ft_lstclear: Deletes and frees an entire list.
 
 ⚙️ Technical Considerations
 No Global Variables: Strictly forbidden to ensure thread safety and modularity.
+
 Static Functions: Used for helper functions to keep the scope restricted to the specific file.
+
 Memory Management: All heap allocations (malloc) are carefully managed to ensure zero leaks.
+
 Compilation: Every .c file is compiled with -Wall -Wextra -Werror.
